@@ -4,7 +4,7 @@
  * Descricao de Conexão: A presente REST API abre e fecha conexão com o banco de dados relacional,  
  * também interagindo com o mesmo, inserindo e selecionando dados.
  * @autora Ana Andrade
- */
+*/
 
 class restAPI {
     
