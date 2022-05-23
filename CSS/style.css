@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+    
+}
+
+/* BG do fundo */
+ .bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(/img/bg3.webm) no-repeat;
+	background-size: cover; 
+    
+}
+ 
+/* Aqui está todo o CSS do Card Principal*/
+ .main-login{
+
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: rgba(0,0,0,0.7);
+    
+ }
+
+ /* CSS referente ao CARD lado esquerdo */
+
+ .left-login{
+     
+     width: 40vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    
+}
+
+ /* CSS Referente a Escrita*/
+
+ .left-login > h1{
+     color: white;
+     font-size: 3vh;
+ }
+
+ /* CSS referente ao tamanho da Imagem */
+ .left-login-image{
+     width: 20vw;
+ }
+
+/* CSS referente ao "Não Possui Cadastro" */
+ .left-login > footer{
+     color: white;
+     font-size: 12px;
+ }
+
+ /* CSS referente ao BG direito */
+ 
+.right-login{
+    
+     width: 25vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+ /* CSS referente ao CARD lado direito CARD principal */
+.card-login{
+    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 25px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #123eb6c5;
+}
+
+
+ /* CSS referente ao CARD do LOGIN */
+.card-login > h1{
+    color: #00aeff;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+ /* CSS referente a escrita */
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px 0px;
+
+}
+
+/* CSS Referente aos Inputs de login */
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    padding: 8px;
+    background: #0084ff44;  
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 2px 35px #1246b69a;
+    outline: none;
+    box-sizing: border-box;  
+}
+
+
+ /* CSS referente ao input ON Click*/
+
+.textfield > input:hover{
+    background-color: rgba(15, 78, 214, 0.651);
+    cursor: pointer;
+    transition: background 2s;
+
+}
+
+/* Referente a tag e-mail */
+
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Referente ao Placeholder dos inputs*/
+
+.textfield > input::placeholder{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Referente ao CSS do Button do Login/Cadastro */
+.btn-login{
+    width: 60%;
+    padding: 8px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #f8f6facb;
+    background: #0044ff69;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -2px #1246b6a1;
+}
+
+/* Referente ao CSS do Button do Login/Cadastro */
+.btn-login:hover{
+    background-color: rgba(27, 86, 196, 0.76);
+    cursor: pointer;
+    transition: background 1s;
+}
+
+
+/*Aqui começa o CSS do Formulario de Cadastro*/
+
+.card-nome{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 25px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #123eb6a4;
+
+
+}
+
+/* Referente ao CSS do CARD princiapl */
+.card-nome > h1{
+    
+    color: #00aeff;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* Referente ao CSS do botão cadastrar*/
+.cadastro{
+
+    font-size: 12px;
+    color: #00aeffb6;
+}
+
+/* Referente ao CSS do botão de voltar */
+.back{
+    
+    font-size: 12px;
+    color: #00aeff;
+}
+
+ /* link que foi visitado */
+
+a:visited {
+    color: #00aeff;
+    
+}
+
+/* Hover do Button visitado */
+
+a:hover{
+    cursor: pointer;
+    color: rgb(0, 217, 255);
+    
+
+}
+
+
+/* Aqui é a Configuração para Mobile */
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-widht: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+
+}
