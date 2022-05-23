@@ -66,7 +66,8 @@ body{
      font-size: 12px;
  }
 
-
+ /* CSS referente ao BG direito */
+ 
 .right-login{
     
      width: 25vw;
@@ -88,7 +89,7 @@ body{
     padding: 30px 25px;
     background: rgba(0,0,0,0.7);
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #12b6a0ce;
+    box-shadow: 0px 10px 40px #123eb6c5;
 }
 
 
@@ -121,7 +122,7 @@ body{
     background: #0084ff44;  
     color: white;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #418be0a2;
+    box-shadow: 0px 2px 35px #1246b69a;
     outline: none;
     box-sizing: border-box;  
 }
@@ -163,7 +164,7 @@ body{
     color: #f8f6facb;
     background: #0044ff69;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -2px #1691a1bd;
+    box-shadow: 0px 10px 40px -2px #1246b6a1;
 }
 
 /* Referente ao CSS do Button do Login/Cadastro */
@@ -185,7 +186,7 @@ body{
     padding: 30px 25px;
     background: rgba(0,0,0,0.7);
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #12b6a0c5;
+    box-shadow: 0px 10px 40px #123eb6a4;
 
 
 }
