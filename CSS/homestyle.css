@@ -24,47 +24,69 @@
     
 }
 
+.boxVideo{
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 50px;
+	height: 40px;
+	margin: auto;
+	box-shadow: 0px 0px 50px brown;
+	box-shadow: 80px;
+	
+	
+}
+
+.refvideo > p{
+	color: antiquewhite;
+	margin:none;
+	font-size: 19px;
+	padding-left: 38px;
+	
+	
+}
+
+a:visited {
+	color: antiquewhite;
+	
+	
+}
+
+a:hover{
+	color: brown;
+	cursor: pointer;
+	transition: 2s;
+	font-size: strong;
+}
+
+
+.boxVideo > video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
 .center-home > h2 {
     color: blanchedalmond;
 	align-items: center;
 	font-size: 50px;
 	text-align: center;
+	margin: 0;
 }
 
-
-.img-left{
-	display: table;
-	margin: none;
-	
-  
-}
-
-.imagem, img{
-	width: 450px;
-	display: table-cell;
-	float: left;
-	margin: auto;
-	box-shadow: 0px 0px 30px rgba(173, 29, 29, 0.699);
-}
-
-.texto{
-	
-	display:table-cell;
-	color:rgba(250, 235, 215, 0.979);
-	float: right;
-	margin-top: -20px;
-	margin-left: 100px;
-	font-size: 12pt;
-	
-}
-
-.texto > h2{
-	font-size: 35px;
+.texto > h2 {
+	color: aliceblue;
 	text-align: center;
-	color: beige;
+
+	
 }
 
-.texto > p {
-	font-size: 16pt;
+.texto > p{
+	color: aliceblue;
+	text-align: center;
+	font-size: 14pt;
 
+	
+	
 }
